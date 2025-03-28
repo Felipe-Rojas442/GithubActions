@@ -37,7 +37,7 @@ public class Subtraction
     {
         Assert.AreEqual(4, Program.Subtract("5", "1"));
         Assert.AreEqual(2, Program.Subtract("7", "5"));
-        Assert.AreEqual(94, Program.Subtract("110", "15")); // Purposely wrong
+        Assert.AreEqual(95, Program.Subtract("110", "15")); // Changed to make this case correct now
     }
 
     [TestMethod]
